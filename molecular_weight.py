@@ -1,5 +1,5 @@
 from Bio import SeqIO
-impurt numpy as np
+import pandas as pd
 
 #Dictionary determining molecular weight of each amino acid in kDa
 fasta_to_weight = {'A':0.0891, 'R':0.1742, 'N': 0.1321, 'D':0.1331, 'C': 0.1212,
@@ -22,7 +22,7 @@ def SeparateSequences(file, filetype):
 
 
 #Find molecular weight
-def FindkDa(fasta):
+def FindkDa(protein):
     
     mol_weights = []
     
@@ -39,8 +39,10 @@ def MolWeights(file, filetype):
     
     SeparateSequences(file, filetype)
     
-    mol_weights = np.zeros([len(seq_list), 2])
+    mol_weights = pd.DataFrame(columns = ['ID', 'kDa'])
     
     for i in range(len(seq_list)):
-        mol_weights[i, 0] = ID_list[i]
-        mol_weights[i, 1] = 
+        mol_weights.loc[i, 'ID'] = ID_list[i]
+        mol_weights.loc[i, 'kDa'] = FindkDa(seq_list[i])
+        
+    return mol_weights
