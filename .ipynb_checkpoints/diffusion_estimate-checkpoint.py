@@ -16,11 +16,11 @@ def DiffusionCoefficient(my_email, acc_numbers, download=True, file=None):
     
     data.insert(2, 'R, nm', RadiusMW(data['kDa']))
     
-    D_min = pd.Series(((kB*310.15)/(6*math.pi*0.002*data['R, nm']*(10**-9)))*10**12)
-    D_max = pd.Series(((kB*310.15)/(6*math.pi*0.05*data['R, nm']*(10**-9)))*10**12)
+    D_max = pd.Series(round(((kB*310.15)/(6*math.pi*0.002*data['R, nm']*(10**-9)))*10**12),2)
+    D_min = pd.Series(round(((kB*310.15)/(6*math.pi*0.05*data['R, nm']*(10**-9)))*10**12),2)
     
-    data.insert(3,'D min, um^2/s', D_min)
-    data.insert(4, 'D max, um^2/s', D_max)
+    data.insert(3,'D max, um^2/s', D_max)
+    data.insert(4, 'D min, um^2/s', D_min)
     
     return data
 
