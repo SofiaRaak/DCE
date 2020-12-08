@@ -5,14 +5,19 @@ import math
 #Bolzmann constant
 kB = 1.38064852*(10**-23)
 
-#Calculate radius of protein based on molecular weight
+#Calculate radius of protein based on molecular weight, based on analysis in jupyter notebook
 def RadiusMW(molecular_weight):
     radius = 1.49 * (molecular_weight**(1/3)) + 0.44
     return radius
 
 #Calculate range of possible diffusion coefficients
 def DiffusionCoefficient(my_email, acc_numbers, download=True, file=None):
-    data = mw.MolWeights(my_email, acc_numbers, download=True, file=None)
+    
+    if download == True:
+        data = mw.MolWeights(my_email, acc_numbers, download=True, file=None)
+    
+    elif download == False:
+        data = mw.MolWeights(my_email, acc_numbers, download=False, file=file)
     
     data.insert(2, 'R, nm', RadiusMW(data['kDa']))
     
