@@ -112,5 +112,14 @@ Currently the program does not support fasta files with gaps in the sequence, an
 
 ## References
 
+Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL (2009) Biopython: freely available Python tools for computational molecular biology and bioinformatics. *Bioinformatics*, 25, 1422-1423
+
+McKinney, W. (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*. 445.
+
 Obodovskiy, I. (2019). Basics of Biology. *Radiation*: 429-445.
+
+The Pandas Development Team (2020). pandas-dev/pandas: Pandas. [10.5281/zenodo.3509134](10.5281/zenodo.350913)
+
 Tyn, M. T. and T. W. Gusek (1990). "Prediction of diffusion coefficients of proteins." *Biotechnology and Bioengineering* 35(4): 327-338.
+
+Van Rossum, G., 2020. The Python Library Reference, release 3.8.2, Python Software Foundation.
