@@ -1,4 +1,4 @@
-# Diffusion coefficient predictor
+# DCE: Diffusion coefficient estimation
 
 Diffusion coefficients for several protein species are often required when modelling protein-protein interactions between several spatial compartments, however they are often difficult to find in the literature. As an alternative, diffusion coefficients can be estimated by fitting a mathematically formalised biochemical model to available data; however, an initial guess of the value of the diffusion coefficient is still required. Additionally, less time is required to fit models to data when the initial values are close to optimal. This program offers a quick and easy estimation of a likely range of diffusion coefficients based on the amino acid sequence of a protein.
 
