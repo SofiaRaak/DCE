@@ -80,7 +80,7 @@ data
 
 ### Using the program with a local text file of fasta sequences
 
-The program can also be used with local .txt files of fasta sequences. Two example files with a single (test.fasta) and multiple (test2.fasta) fasta sequences are provided in the main branch. For local files, no email is required.
+The program can also be used with local .txt files of fasta sequences. Two example files with a single (test.fasta) and multiple (test2.fasta) fasta sequences are provided in the main branch. For local files no email is required.
 
 ```
 import diffusion_estimate as de
