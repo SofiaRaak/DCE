@@ -26,3 +26,4 @@ print()
 print(f"The estimated range of diffusion coefficients for yeast phosphoglycerate kinase is {round(YPGK['D min, um^2/s'],2)}-{round(YPGK['D max, um^2/s'],2)} um^2/s")
 print(f"The experimentally determined diffusion coefficient for YPGK is {experimental['Yeast phosphoglycerate kinase']} um^2/s")
 print()
+
