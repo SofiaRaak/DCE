@@ -122,6 +122,6 @@ Kluyver T, Ragan-Kelley, Benjamin, Pérez, Fernando, Granger, Brian, Bussonnier,
 
 Obodovskiy I. Basics of Biology.  Radiation2019. p. 429-45.
 
-The pandas development team. pandas-dev/pandas: Pandas 1.0.3: Zenodo; 2020 [Available from: https://doi.org/10.5281/zenodo.3509134.
+The pandas development team. pandas-dev/pandas: Pandas 1.0.3: Zenodo; 2020 [Available from: https://doi.org/10.5281/zenodo.3509134].
 
 Tyn MT, Gusek TW. Prediction of diffusion coefficients of proteins. Biotechnology and Bioengineering. 1990;35(4):327-38.
