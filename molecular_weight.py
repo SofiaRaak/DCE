@@ -41,6 +41,8 @@ def FindkDa(protein):
         mol_kDa = fasta_to_weight[letter]
         mol_weights.append(mol_kDa)
     
+    #Likely overestimation due to excess water in the protein, but good enough for crude estimation
+    #Overestimation likely minimal if post-translational modifications present
     return sum(mol_weights)
 
 
