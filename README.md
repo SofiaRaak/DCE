@@ -112,14 +112,16 @@ Currently the program does not support fasta files with gaps in the sequence, an
 
 ## References
 
-Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL (2009) Biopython: freely available Python tools for computational molecular biology and bioinformatics. *Bioinformatics*, 25, 1422-1423
+Cock PJA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, et al. Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics (Oxford, England). 2009;25(11):1422-3.
 
-McKinney, W. (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*. 445.
+Fabian Pedregosa GV, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau, Matthieu Brucher, Matthieu Perrot, Édouard Duchesnay. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research. 2011;12(85):285-2830.
 
-Obodovskiy, I. (2019). Basics of Biology. *Radiation*: 429-445.
+Hunter JD. Matplotlib: A 2D graphics environment. Computing in Science & Engineering. 2007;9(3):90-5.
 
-The Pandas Development Team (2020). pandas-dev/pandas: Pandas. [10.5281/zenodo.3509134](10.5281/zenodo.350913)
+Kluyver T, Ragan-Kelley, Benjamin, Pérez, Fernando, Granger, Brian, Bussonnier, Matthias, Frederic, Jonathan, Kelley, Kyle, Hamrick, Jessica, Grout, Jason, Corlay, Sylvain, Ivanov, Paul, Avila, Damián, Abdalla, Safia, Willing, Carol and Jupyter development team, editor Jupyter Notebooks – a publishing format for reproducible computational workflows2016: IOS Press.
 
-Tyn, M. T. and T. W. Gusek (1990). "Prediction of diffusion coefficients of proteins." *Biotechnology and Bioengineering* 35(4): 327-338.
+Obodovskiy I. Basics of Biology.  Radiation2019. p. 429-45.
 
-Van Rossum, G., 2020. The Python Library Reference, release 3.8.2, Python Software Foundation.
+The pandas development team. pandas-dev/pandas: Pandas 1.0.3: Zenodo; 2020 [Available from: https://doi.org/10.5281/zenodo.3509134.
+
+Tyn MT, Gusek TW. Prediction of diffusion coefficients of proteins. Biotechnology and Bioengineering. 1990;35(4):327-38.
